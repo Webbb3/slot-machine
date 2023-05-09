@@ -4,11 +4,12 @@
 
 So let’s dive into the project. 
 Now, the first thing to mention here is:
+
 :heavy_exclamation_mark: *I do not support gambling. I’m just doing this project because it’s really good one for beginners like me. And to really dive into code and kind of see to create a complete project. But please do not gamble. I don’t gamble myself and I would never encourage anyone to do that.* :heavy_exclamation_mark:
 
 So we’re going to imagine here that we have three reels. Now in each of the reels we’re going to have three symbols, smth like:
 
-![ABC](../images/pic1.JPG)
+![ABC](images/pic1.JPG)
 
 Now, what we're going to have here for our slot machine is three lines. Now, whenever you play a slot machine, there's a certain number of lines that you can win on. Usually it's like 80 lines or 60 lines... In our case, we're just going to do three, and they're just going to be each row. Okay, so these are the three possible lines that you could win on. Now you only win when you have three symbols that match in a row. So in this case, we would have a win, but we would not have a win. And either of these two rows, because we don't have three symbols. Now, each symbol will have a varying multiplier. So if I bet, say, $1 on the line and the symbol had a multiplier of five, then that would mean that we won $5 on that specific line and we're going to allow the user to bet on a certain number of lines. So if they bet on one line, they'd just bet on this. So they need to have something in this section. If they bet on two lines, then they're going to be betting on both of these lines. If they bet on three lines and they bet on all three of these and whatever bet amount they make is going to be multiplied by the number of lines that they bet on. So if they bet $1 on three lines, then they bet $3 in total. And if they get symbols in any one of the rows, then they're going to win a certain amount of money based on what the multiplier is for that symbol.
 
