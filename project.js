@@ -82,12 +82,8 @@ const getBet = (balance, lines) => {
 // them, put them on a real and that's what we've done.
 
 const spin = () => {
-  const symbols = [];
-  for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
-    for (let i = 0; i < count; i++) {
-      symbols.push(symbol);
-    }
-  }
+  const symbols = Object.entries(SYMBOLS_COUNT)
+    .flatMap(([symbol, count]) => Array(count).fill(symbol));
 
   const reels = [];
   for (let i = 0; i < COLS; i++) {
